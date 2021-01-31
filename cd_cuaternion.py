@@ -5,6 +5,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
+
+#######################################################################
+#################   FUNCIONES DE MOSTRAR ROBOT 	#######################
+#######################################################################
+
 # Funciones de mostrar en cinemática directa
 def ramal(I,prev=[],base=0):
   # Convierte el robot a una secuencia de puntos para representar
@@ -52,18 +57,18 @@ def muestra_robot(O,ef=[]):
 
 
   #######################################################################
-  ######   FIN DE FUNCIONES DE CINEMÁTICA DIRECTA 	#####################
+  ###########   FIN DE FUNCIONES DE MOSTRAR ROBOT 	#####################
   #######################################################################
 
-# resoluci�n de la cinem�tica directa mediante cuaterniones
+# Resolución de la cinemática directa mediante cuaterniones
 
 # o1=Q1*(0,r1)*Q1c
 # o2=Q1*Q2*(0,r2)*Q2c*Q1c + o1
 
-# parametro primer eslab�n
+# Parámetro primer eslabón
 a1 = 8
 
-# parametro segundo eslab�n
+# Parámetro segundo eslabón
 a2 = 5
 
 # Parámetro tercer eslabón
